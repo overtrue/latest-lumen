@@ -2,4 +2,4 @@
 scripts/overtrue.js
 scripts/output
 /node_modules
-/laravel
+/lumen
