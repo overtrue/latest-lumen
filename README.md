@@ -1,5 +1,7 @@
-Latest-laravel
+Latest-lumen
 ==============
+
+[latest-laravel](https://github.com/overtrue/latest-laravel)
 
 每天更新的 [Lumen](https://github.com/laravel/lumen) 不同分支的完整包，下载直接可以运行（已经 `composer install` 了，也就是已经有了vendor目录）。
 
