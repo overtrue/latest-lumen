@@ -27,13 +27,6 @@ latest_and_install()
     git clone https://github.com/laravel/lumen --depth=1
     cd lumen && git checkout $1 && composer install
 
-    # 替换掉google字体
-    if [[ -f "resources/views/welcome.blade.php" ]]; then
-        sed -i "s/<link href='\/\/fonts.googleapis.com.*?>//" resources/views/welcome.blade.php
-    fi
-    
-    cp .env.example .env
-
     return 0
 }
 
